@@ -2,7 +2,6 @@ package markovModel;
 
 
 public class Main {
-
 	public static void main(String[] args) {
 		String library = "- Здравствуйте. Не желаете ли поговорить про рациональность? – с радужной улыбкой заявил стоящий у порога парень, а мои глаза сразу же невольно закатились. Ну, значит, и до меня добрались! Я тяжело вздохнул, уже приготовившись провести этот вечер под завывания визитёров, и пропустил их в квартиру.\r\n" + 
 				"Эти двое выглядели типично для своего типа – завитые тёмные волосы, бороды (одному повезло с растительностью на лице, а у второго была накладная), кроваво-красные рубашки и плащи. Также один сжимал в руках томик с громким названием «Рациональность от А до Я. Теория и практика», а второй – большой резиновый член. \r\n" + 
@@ -17,14 +16,5 @@ public class Main {
 		System.out.println("---------------------------------------------------");
 		//model.showMap();
 		model.generateText(200);
-		
-		//System.out.println(model.generateText(100));
-		//System.out.print(TextAdaptorUtil.adaptText("     sasai     lalka    hehe   ehehehe    "));
-		// model.showMap();
-		 //System.out.println(model.generateText(20));
-		//System.out.println(model.getMapOfLists().getMap().get("alive.").contains("lalka"));
-		//System.out.println(model.getMapOfLists().getMap().get("lalka").contains("hehe"));
-		//System.out.println(model.getMapOfLists().getMap().get("lalka").contains("alive."));
-		//System.out.println(test);
 	}
 }
